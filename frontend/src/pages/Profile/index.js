@@ -11,7 +11,7 @@ import logoImg from '../../assets/logo.svg';
 export default function Profile() {
     const [incidents, setIncidents] = useState([]);
 
-    const ongId = localStorage.getItem('ondId');
+    const ongId = localStorage.getItem('ongId');
     const ongName = localStorage.getItem('ongName');
     
     useEffect(() => {

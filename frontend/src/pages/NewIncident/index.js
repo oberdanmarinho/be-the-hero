@@ -58,11 +58,13 @@ export default function NewIncident() {
                         value={title}
                         onChange={e => setTitle(e.target.value)}
                     />
+
                     <textarea 
                         placeholder="Descrição"
                         value={description}
                         onChange={e => setDescription(e.target.value)}
                     />
+
                     <input 
                         placeholder="Valor em reais"
                         value={value}
